@@ -1,5 +1,50 @@
-#DivPadre{
+#Principal{
     width: 100%;
     background-color: blue;
-    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+}
+#Encabezado{
+    width: 100%;
+    background-color: red;
+    margin: 3px;
+    display: flex;
+}   
+#Botones{
+    background-color: yellow;
+    flex: 2;
+    margin: 3px;
+    align-content: flex-end;
+}
+.ButtonConfig{
+    height: 30%;
+    width: 15%;
+    border-radius: 10px 10px 0px 0px;
+}
+#Titulo{
+    background-color: aqua;
+    flex: 3;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+#Logo{
+    background-color: blueviolet;
+    flex: 1;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+}
+#ConfiLogo{
+    width: 80%;
+}
+.ButtonConfigTd{
+    width: 80;
+}
+.prueba{
+    border: 3px solid black;
+    background-color: bisque;
 }
