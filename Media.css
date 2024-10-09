@@ -1,0 +1,14 @@
+@media (min-width:600px){
+body {
+  font-size: 14px;
+}
+.TextP{display: flex;justify-content: center;width: 30%;padding-left: 100px;}
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 17px;
+  }
+.DivBotonesB{width: 100%;height: 24%;}
+.DivBody{width: 100%;height: 34.5vw;display: flex;}
+}
