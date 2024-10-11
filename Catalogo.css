@@ -1,14 +1,22 @@
-.deo{height: 100%;width: 100%;}
 
-.DivPrincipal{background-color: white;width: 100%;height: 30%;
-display: flex;border-radius: 5px;margin-bottom: 10px;
-box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);}
+
+.DivPrincipal{background-color: white;
+    width: 100%;height: 30%;
+    display: flex;border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);
+}
 
 .patua-one-regular {
     font-family: "Patua One", serif;
     font-weight: 400;
-    font-style: normal;color:#1450C9;}
-.BotonesP{display: flex;justify-content:flex-start;width: 35%;height: 10%;margin-top: 40px;margin-left: 5px;}
+    font-style: normal;color:#1450C9;
+}
+
+.BotonesP{display: flex;justify-content:flex-start;
+    width: 35%;height: 10%;
+    margin-top: 40px;margin-left: 5px;
+}
 
 .Botones{cursor: pointer;
     font-size: medium;
@@ -19,21 +27,41 @@ box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);}
     border-radius: 10px;
     border: 6px solid #8b93f8;
     box-shadow: 0px 8px #1f35ff;
-    text-align: center;margin-left: 2px;}
+    text-align: center;margin-left: 2px;
+}
+
 .Botones:active {
     position: relative;
     top: 6px;
     border: 6px solid #646fff;
-    box-shadow: 0px 0px;}
-
-.TextP{display: flex;justify-content: center;width: 30%;}
-.LogoP{display: flex;width: 35%;justify-content: flex-end;margin-right: 5px;margin-top: 8px;}
-
-.DivBody{width: 100%;height: 80vw;display: flex;}
-.DivVideo{width: 79%;height: 85px;}
-.DivBotonesB{width: 100%;height: 24.7%;
+    box-shadow: 0px 0px;
 }
-.DivInfo{width: 80%;height: 50%;font-family:arial;text-align: center;margin-top: 0.5px;
+
+.TextP{display: flex;
+    justify-content: center;
+    width: 30%
+}
+
+.LogoP{display: flex;
+    width: 35%;
+    justify-content: flex-end;
+    margin-right: 5px;margin-top: 8px;
+}
+
+.DivBody{width: 100%;height: 80vw;
+    display: flex;
+}
+
+.DivVideo{width: 79%;
+    height: 85px;
+}
+
+.DivBotonesB{width: 100%;
+    height: 24.7%;
+}
+.DivInfo{width: 80%;height: 50%;
+    font-family:arial;text-align: center;
+    margin-top: 0.5px;
     --color: #5d1989;
     display: inline-block;
     line-height: 2.5em;
@@ -44,7 +72,9 @@ box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);}
     transition: color 0.5s;
     z-index: 1;
     font-weight: 500;
-    color: var(--color);}
+    color: var(--color);
+}
+
 .DivInfo:before {
     content: "";
     position: absolute;
@@ -52,7 +82,8 @@ box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);}
     background: var(--color);
     height: 150px;
     width: 300px;
-    border-radius: 50%;}
+    border-radius: 50%;
+}
 
 .DivInfo:hover {
     color: #fff;}
@@ -60,21 +91,37 @@ box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);}
 .DivInfo:before {
     top: 100%;
     left: 100%;
-    transition: all 0.7s;}
+    transition: all 0.7s;
+}
 
 .DivInfo:hover:before {
     top: -30px;
-    left: -30px;}
+    left: -30px;
+}
 
 .DivInfo:active:before {
     background: #8b54af;
-    transition: background 0s;}
+    transition: background 0s;
+}
 
 .DivCatalogo{width: 100%;}
-.BotonesMedio{width: 19%;height: 12%;color: white;background-color: #1450C9;border-radius: 5px;border-style: none;cursor: pointer;font-family: arial;}
+
+.BotonesMedio{width: 19%;height: 12%;
+    color: white;
+    background-color: #1450C9;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    font-family: arial;
+}
+
 .BotonesMedio:hover{background-color: #0099ff;}
 
-.DivH{text-align: center;font-family: "Patua One", serif;font-weight: 400;color:#5d1989}
+.DivH{text-align: center;font-family: "Patua One", serif;
+    font-weight: 400;
+    color:#5d1989
+}
+
 .DivTamaños {
     display: flex;
     flex-direction: row;
@@ -88,12 +135,13 @@ box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);}
     border-radius: 0.5rem;
     background-color: whitesmoke;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    border: 1px solid transparent;
+    border: 1px solid #ccc;
     height:13vw;
     margin-left: 9px;
     margin-top: 6px;
     cursor: pointer;
 }
+
 .Imagen {
     object-fit: cover;
     width: 60%;
@@ -104,20 +152,33 @@ box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);}
     margin-right: 45px;
     border-radius: 2px;
 }
+
 .Titulo{
     color: #111827;
     font-weight: 700;
     font-size: 11px;
     margin-top: 1px;
     margin-left: 5px;
-
 }
-.Precio{font-weight: 1000;margin-top: 1px;
-    color: #00205c;font-size: 13px;
-    margin-left: 10px;}
 
-.DivFinal{flex-direction: row;justify-content: space-between;width: 100%;height: 30%;display: flex;background-color: #1450c9;margin-top: 5px;border-radius: 10px 10px 0px 0px;}
-.BotonesFinal{position: relative;width: 20%;height: 3vw;margin-top: 8px;margin-bottom: 20px;margin-right: 6.5px;border-radius: 5px;
+.Precio{font-weight: 1000;margin-top: 1px;
+    color: #00205c;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.DivFinal{flex-direction: row;justify-content: space-between;
+    width: 100%;height: 30%;
+    display: flex;
+    background-color: #1450c9;
+    margin-top: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.BotonesFinal{position: relative;
+    width: 20%;height: 3vw;
+    margin-top: 8px;margin-bottom: 20px;margin-right: 6.5px;
+    border-radius: 5px;
     --bg: #f8f8f8;
     --hover-bg: green;
     --hover-text: #000;
@@ -128,15 +189,21 @@ box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);}
     background: var(--bg);
     transition: 0.2s;
 }
+
 .BotonesFinal:hover {
     color: var(--hover-text);
     transform: translate(-0.25rem, -0.25rem);
     background: var(--hover-bg);
     box-shadow: 0.25rem 0.25rem var(--bg);
 }
+
 .BotonesFinal:active {
     transform: translate(0);
     box-shadow: none;
 }
 
-p3{color: white;font-family: "Patua One", serif;font-weight: 400;font-style: normal;margin-left: 5px;margin-top: 5px;}
+p3{color: white;font-family: "Patua One", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 5px;margin-top: 5px;
+}
