@@ -117,20 +117,21 @@
     }
     #CentroDiv{
         width: 100%;
-        border: solid;
+        height: 110vw;
     }
     #CentroBotones{
-        height: 8vw;
+    
         display: flex;
        justify-content: center; 
        flex-wrap: wrap;
        align-content: center;
+       padding-top: 10%;
         
     
     }
     .ButtonConfigCentro{
-        width: 12%;
-        height: 5vw;
+        width: 30%;
+        height: 10vw;
         border: 3px solid #315cfd;
         border-radius: 45px;
         transition: all 0.3s;
@@ -142,13 +143,14 @@
     .ButtonConfigCentro:hover {
         background: #315cfd;
         color: white;
-        font-size: 10px;
+        font-size: 1.5em;
       }
     #DivCentroTitulo{
         display: flex;
         justify-content: center; 
        flex-wrap: wrap;
        align-content: center;
+       padding-top: 15%;
     }
     #CentroTitulo{
        display: flex;
@@ -157,7 +159,7 @@
        align-content: center;
        height: 10vw;
        font-family: "Plus Jakarta Sans", sans-serif;
-       font-size: 50px;
+       font-size: 30px;
        font-style: normal;color:#1450C9;
        background-color: rgb(255, 255, 255);
        border-radius: 100px;
@@ -171,7 +173,7 @@
     #DivTablasCentro{
         display: flex;
         flex-direction: row;
-        height: 40vw;
+        height: 45vw;
         padding-top: 20px;
         padding-left: 0px;
     }
@@ -202,7 +204,7 @@
     }
     #BotonInforme{
         width: 30%;
-        height: 5vw;
+        height: 10vw;
         font: inherit;
       background-color: #315cfd;
       border: 0;
@@ -237,7 +239,7 @@
         0 0.225em 0.375em 0 #0a0a0a;
     }
     #PieDePagina{
-        height: 20vw;
+        height: 40vw;
         display: flex;
         flex-direction: column-reverse;
         background-color: aquamarine;
@@ -275,8 +277,8 @@
     }
     .BotonesPie {
         width: 20%;
-        height: 7vw;
-        padding: 15px 25px;
+        height: 9vw;
+        padding-right: 20%;
         border: 0;
         border-radius: 15px;
         color: #212121;
