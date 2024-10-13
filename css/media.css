@@ -1,0 +1,328 @@
+@media (max-width: 767px) {
+    Principal{
+        width: 100%;
+        background-color: rgb(245, 245, 220);
+
+        
+    }
+    #Encabezado{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 90vw;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        margin: 5px;
+        box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);
+    }   
+    #Botones{
+       
+        display: flex;
+        justify-content:center ;
+        padding-top: 5%;
+        padding-right: 5%;
+    }
+    .ButtonConfig{
+        height: 15vw;
+        width:100%;
+        cursor: pointer;
+        font-size: 20px;
+        font-family: inherit;
+        font-weight: bold;
+        color: #0011ff;
+        background-color: #f8f8fd;
+        border-radius: 10px;
+        border: 6px solid #8b93f8;
+        box-shadow: 0px 8px #1f35ff;
+        text-align: center;
+    }
+      
+    .ButtonConfig:active {
+      position: relative;
+      top: 8px;
+      border: 6px solid #646fff;
+      box-shadow: 0px 0px;
+    }
+      
+    #Titulo{
+        font-size: 90px;
+        font-family: "Patua One", serif;
+        font-weight: 400;
+        font-style: normal;
+        color:#1450C9;
+        
+    }
+    #Logo{
+        height: 30vw;
+       
+        
+        
+       
+    }
+    #ConfiLogo{
+        width: 50%;
+        height:30vw;
+        padding-top: 5%;
+    }
+    #CuerpoDiv{
+        display: flex;
+        flex-direction: row;
+    }
+    .ButtonConfigTd {
+        width: 100%;
+        height: 100%;
+        font-family:arial;text-align: center;margin-top: 0.5px;
+        --color:#1450C9;;
+        display: inline-block;
+        line-height: 2.5em;
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+        border: 1px solid var(--color);
+        transition: color 0.5s;
+        z-index: 1;
+        font-weight: 500;
+        color: var(--color);}
+        .ButtonConfigTd:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        background: var(--color);
+        height: 290px;
+        width: 500px;
+        border-radius: 50%;}
+    
+        .ButtonConfigTd:hover {
+        color: #fff;}
+    
+        .ButtonConfigTd:before {
+        top: 100%;
+        left: 100%;
+        transition: all 0.7s;}
+    
+        .ButtonConfigTd:hover:before {
+        top: -30px;
+        left: -30px;}
+        .ButtonConfigTd:active:before {
+        background: rgb(1, 190, 1);
+        transition: background 0s;}
+      
+    #TablaConfig{
+        width: 100%;
+    }
+    
+    .Ver{
+        background-color: rgb(255, 255, 255);
+        margin: 3px;
+        border: solid 1px black;
+    }
+    .TdConfig{
+        height: 8vw;
+    
+    }
+    #CentroDiv{
+        width: 100%;
+    }
+    #CentroBotones{
+        height: 8vw;
+        display: flex;
+       justify-content: center; 
+       flex-wrap: wrap;
+       align-content: center;
+        
+    
+    }
+    .ButtonConfigCentro{
+        width: 15%;
+        height: 5vw;
+        border: 3px solid #315cfd;
+        border-radius: 45px;
+        transition: all 0.3s;
+        cursor: pointer;
+        background: white;
+        font-size: 1.2em;
+        font-weight: 550;
+    }
+    .ButtonConfigCentro:hover {
+        background: #315cfd;
+        color: white;
+        font-size: 1.5em;
+      }
+    #DivCentroTitulo{
+        display: flex;
+        justify-content: center; 
+       flex-wrap: wrap;
+       align-content: center;
+    }
+    #CentroTitulo{
+       display: flex;
+       justify-content: center; 
+       flex-wrap: wrap;
+       align-content: center;
+       height: 10vw;
+       font-family: "Plus Jakarta Sans", sans-serif;
+       font-size: 50px;
+       font-style: normal;color:#1450C9;
+       background-color: rgb(255, 255, 255);
+       border-radius: 100px;
+        width: 80%;   
+      box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+      transition: 0.3s;
+      padding: 5px;
+    }
+    
+    
+    #DivTablasCentro{
+        display: flex;
+        flex-direction: row;
+        height: 40vw;
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+    #Tabla1{
+        flex: 2;
+        border: solid 4px #315cfd;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        border-radius: 15px;
+        background-color: aquamarine;
+    }
+    #Tabla2{
+        flex: 2;
+        border: solid 4px #315cfd;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        border-radius: 15px; 
+        background-color: aquamarine;
+    }
+    #TablaC{
+        width: 100%;
+        height: 33vw;
+    }
+    #BotonDivInforme{
+        display: flex;
+        justify-content: end;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+    }
+    #BotonInforme{
+        width: 30%;
+        height: 5vw;
+        font: inherit;
+      background-color: #315cfd;
+      border: 0;
+      color: #e0e0e0;
+      border-radius: 0.5em;
+      font-size: 1.35rem;
+      
+      font-weight: 600;
+      text-shadow: 0 0.0625em 0 #000;
+      box-shadow:
+        inset 0 0.0625em 0 0 #3a3a3a,
+        0 0.0625em 0 0 #252525,
+        0 0.125em 0 0 #202020,
+        0 0.25em 0 0 #1c1c1c,
+        0 0.3125em 0 0 #181818,
+        0 0.375em 0 0 #141414,
+        0 0.425em 0 0 #101010,
+        0 0.425em 0.5em 0 #0a0a0a;
+      transition: 0.15s ease;
+      cursor: pointer;
+    }
+    #BotonInforme:active{
+        translate: 0 0.225em;
+      box-shadow:
+        inset 0 0.03em 0 0 #3a3a3a,
+        0 0.03em 0 0 #252525,
+        0 0.0625em 0 0 #202020,
+        0 0.125em 0 0 #1c1c1c,
+        0 0.125em 0 0 #181818,
+        0 0.2em 0 0 #141414,
+        0 0.225em 0 0 #101010,
+        0 0.225em 0.375em 0 #0a0a0a;
+    }
+    #PieDePagina{
+        height: 10vw;
+        display: flex;
+        justify-content:space-between;
+        background-color: aquamarine;
+    }
+    #DivBotonesPie{
+        width: 40%;
+        display: flex;
+       justify-content: center; 
+       flex-wrap: wrap;
+       align-content: center;
+       padding-right: 20px;
+    
+        
+    }
+    
+    #Texto{
+        width:50%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        font-family:Georgia;
+        font-size: large;
+        padding-left: 30px;
+    }
+    .td{
+        border: solid 1px rgb(0, 0, 0);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        border-radius: 15px;
+        background-color: rgb(247, 247, 247);
+    }
+    .Titulo2{
+        text-align: center;
+        color: rgb(0, 136, 255);
+    }
+    /* From Uiverse.io by thisSasha */ 
+    .BotonesPie {
+        width: 20%;
+        height: 5vw;
+        padding: 15px 25px;
+        border: 0;
+        border-radius: 15px;
+        color: #212121;
+        z-index: 1;
+        background: #e8e8e8;
+        position: relative;
+        font-weight: 1000;
+        font-size: 17px;
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+        transition: all 250ms;
+        overflow: hidden;
+      }
+      
+      .BotonesPie::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 0;
+        width: 0;
+        border-radius: 15px;
+        background-color:#315cfd;
+        z-index: -1;
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+        transition: all 250ms;
+      }
+      
+      .BotonesPie:hover {
+        color: #e8e8e8;
+      }
+      
+      .BotonesPie:hover::before {
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 100%;
+      }
+      
+      .BotonesPie:active {
+        transform: scale(80%);
+      }
+      
+}
