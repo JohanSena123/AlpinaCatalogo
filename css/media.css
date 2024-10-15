@@ -6,7 +6,7 @@
     #Encabezado{
         display: flex;
         flex-direction: column-reverse;
-        height: 100vw;
+        height: 130vw;
         background-color: rgb(255, 255, 255);
         border-radius: 20px;
         margin: 5px;
@@ -55,7 +55,7 @@
     #ConfiLogo{
         width: 50%;
         height:30vw;
-       padding-top: 5%;
+       padding-top: 15%;
     }
     #CuerpoDiv{
         display: flex;
@@ -63,6 +63,9 @@
     }
     #TablaBotones{
         padding-left: 20%;
+    }
+    #DivBotonesTabla{
+     margin: 20%;
     }
     .ButtonConfigTd {
         width: 80%;
@@ -113,11 +116,12 @@
     }
     .TdConfig{
         height: 8vw;
+        padding-left: 20%;
     
     }
     #CentroDiv{
         width: 100%;
-        height: 180vw;
+        height: 230vw;
     }
     #CentroBotones{
     
@@ -143,7 +147,7 @@
     .ButtonConfigCentro:hover {
         background: #315cfd;
         color: white;
-        font-size: 1.5em;
+        font-size: 1.3em;
       }
     #DivCentroTitulo{
         display: flex;
@@ -159,7 +163,7 @@
        align-content: center;
        height: 10vw;
        font-family: "Plus Jakarta Sans", sans-serif;
-       font-size: 30px;
+       font-size: 25px;
        font-style: normal;color:#1450C9;
        background-color: rgb(255, 255, 255);
        border-radius: 100px;
@@ -173,7 +177,7 @@
     #DivTablasCentro{
         display: flex;
         flex-direction: column;
-        height: 110vw;
+        height: 150vw;
         padding-top: 20px;
         padding-left: 0px;
     }
@@ -193,7 +197,7 @@
     }
     #TablaC{
         width: 100%;
-        height: 25vw;
+        height: 50vw;
     }
     #BotonDivInforme{
         display: flex;
@@ -204,7 +208,7 @@
     }
     #BotonInforme{
         width: 30%;
-        height: 10vw;
+        height: 13vw;
         font: inherit;
       background-color: #315cfd;
       border: 0;
@@ -239,7 +243,7 @@
         0 0.225em 0.375em 0 #0a0a0a;
     }
     #PieDePagina{
-        height: 40vw;
+        height: 60vw;
         display: flex;
         flex-direction: column-reverse;
         background-color: aquamarine;
@@ -251,7 +255,7 @@
        flex-wrap: wrap;
        align-content: center;
        padding-left: 5%;
-       padding-top: 4%;
+       padding-top: 5%;
 
     }
     
@@ -276,9 +280,9 @@
         color: rgb(0, 136, 255);
     }
     .BotonesPie {
-        width: 20%;
-        height: 9vw;
-        padding-right: 20%;
+        width: 30%;
+        height: 10vw;
+
         border: 0;
         border-radius: 15px;
         color: #212121;
@@ -286,7 +290,7 @@
         background: #e8e8e8;
         position: relative;
         font-weight: 1000;
-        font-size: 17px;
+        font-size: 15px;
         -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
         box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
         transition: all 250ms;
