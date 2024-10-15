@@ -102,7 +102,7 @@
         top: -30px;
         left: -30px;}
         .ButtonConfigTd:active:before {
-        background: rgb(1, 190, 1);
+        background: rgb(157, 0, 255);
         transition: background 0s;}
       
     #TablaConfig{
