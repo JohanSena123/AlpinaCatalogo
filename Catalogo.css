@@ -30,6 +30,8 @@
     text-align: center;margin-left: 2px;
 }
 
+.Link{font-style: none;text-decoration: none;color: #00205c;}
+
 .Botones:active {
     position: relative;
     top: 6px;
@@ -206,4 +208,14 @@ p3{color: white;font-family: "Patua One", serif;
     font-weight: 400;
     font-style: normal;
     margin-left: 5px;margin-top: 5px;
+    animation: Salto 1s infinite;
+}
+
+@keyframes Salto {
+    0%,40%,100% {
+        transform: translateY(0)
+    }
+    20% {
+        transform: translateY(-20px)
+    }
 }
